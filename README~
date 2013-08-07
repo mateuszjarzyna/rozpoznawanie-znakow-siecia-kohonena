@@ -1,0 +1,14 @@
+liczby.txt - pilik z nauczoną siecią rozpoznającą liczby 0-9
+
+
+Opis problemu:
+Problemem jest rozpoznawanie znaków pisanych odręcznie (liter, cyfr, etc) bez nadzoru.
+
+Opis rozwiązania:
+Problem został rozwiązany używając samo organizującej się sieci Kohonena.
+Sieć dostaje wzorce dla danego typu, wyszukuje najbardziej aktywny neuron, który nie jest już
+przypisany do innego znaku i modyfikuje swoje parametry.
+Sieć jest jedno warstwowa. Jeden neuron odpowiada jednemu znakowi. Na wejście sieć dostaje
+wektor składający się z 0 i 1 zdigitalizowanego obrazka.
+Obrazek narysowany przez użytkownika digitalizowany jest do macierzy 0 i 1 o stałych
+rozmiarach.
